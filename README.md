@@ -10,7 +10,7 @@ Implementação de exemplo criada utilizando conceitos de Arquitetura Limpa e o 
 
 ## Camadas:
 
-O modelo possui 3 camadas: Adapter, Domain e UseCase.
+O modelo possui 3 camadas: Adapter, Domain e UseCase. Por simplificação, agrupamos domain e use-case em Core.
 
 ### Adapter:
 
