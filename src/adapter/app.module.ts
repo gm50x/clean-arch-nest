@@ -5,7 +5,7 @@ import {
   IBankListProvider,
   IGetAllBanksUseCase,
   GetAllBanksUseCase,
-} from '../core';
+} from '@core';
 import { BanksController } from './controllers/banks.controller';
 import { BankListProvider } from './services/bank-list.provider';
 

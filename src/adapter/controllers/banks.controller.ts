@@ -1,7 +1,6 @@
 import { ApiTags, ApiOkResponse } from '@nestjs/swagger';
 import { Controller, Get } from '@nestjs/common';
-import { IGetAllBanksUseCase } from '../../core';
-import { Bank } from '../models/bank.model';
+import { Bank, IGetAllBanksUseCase } from '@core/domain';
 
 @ApiTags('Banks')
 @Controller('banks')

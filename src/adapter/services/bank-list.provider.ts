@@ -1,7 +1,7 @@
 import { HttpService } from '@nestjs/axios';
 import { Injectable } from '@nestjs/common';
 import { firstValueFrom, map } from 'rxjs';
-import { Bank, IBankListProvider } from '../../core/domain';
+import { Bank, IBankListProvider } from '@core/domain';
 
 @Injectable()
 export class BankListProvider implements IBankListProvider {
